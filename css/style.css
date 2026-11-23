@@ -1,0 +1,148 @@
+/* All Common CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+/* All Common CSS End */
+
+
+/* Header Part Start */
+#headerpart{
+    padding: 30px 0px;
+    background-color: #07110D;
+}
+.headerflex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+.menu ul{
+    display: flex;
+    column-gap: 40px;
+}
+.menu ul li a{
+    color: #9DB3A8;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+.headerbutton{
+    padding: 12px 22px;
+    background-color: #1FB57F;
+    border-radius: 999px;
+    color: #07110D;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+}
+/* Header Part End */
+
+/* Banner Part Start */
+#bannerpart{
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background-color: #07110D;
+}
+.bannerflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bannerleft{
+    width: 60%;
+}
+.bannerright{
+    width: 40%;
+    position: relative;
+}
+.bannerright img{
+    width: 100%;
+}
+.rankcard{
+    padding: 18px 22px;
+    background-color: #07110D;
+    border-radius: 18px;
+    position: absolute;
+    bottom: 10px;
+    left: 28px;
+}
+.rankcard h3{
+    color: #F4EFE6;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.rankcard p {
+    color: #9DB3A8;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+.bannerleft h4{
+    color: #1FB57F;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    text-transform: uppercase;
+}
+.bannerleft h1{
+    color: #F4EFE6;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 148px;
+    width: 456px;
+    line-height: 88%;
+    padding: 28px 0px;
+}
+.bannerleft p{
+     color: #9DB3A8;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    line-height: 155%;
+    width: 560px;
+}
+.bannerbutton{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    padding-top: 28px;
+}
+.bannerbutton a{
+     padding: 16px 28px;
+    background-color: #F42A41;
+    border-radius: 999px;
+    color: #F4EFE6;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    border: 1px solid #F42A41;
+    transition: 0.4s;
+}
+.bannerbutton a:hover{
+    background: transparent;
+    border: 1px solid #21402F;
+}
+/* Banner Part End */
